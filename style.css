@@ -1,5 +1,6 @@
 :root {
   --color-accent: oklch(55% 25% 290);
+  color-scheme: light dark;
 }
 
 body {
@@ -14,10 +15,11 @@ body {
   }
 
 nav {
+  --border-color: oklch(50% 10% 200 / 40%);
   display: flex;
   text-decoration: none;
   margin-bottom: 1em;
-  border-bottom: 1px solid hsl(0, 0%, 80%);
+  border-bottom-color: 1px var(--border-color);
 }
 
 nav a {
@@ -113,6 +115,15 @@ section > header h2 {
   color: #005a9e;
   border-bottom: 2px solid #0078d4;
   padding-bottom: 0.5em;
+}
+
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000; 
+  font-size: 0.8rem;
+  font-family: inherit;
 }
 
 
