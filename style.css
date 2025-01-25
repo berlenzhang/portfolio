@@ -19,6 +19,7 @@ nav {
   display: flex;
   text-decoration: none;
   margin-bottom: 1em;
+  border-bottom: 1px;
   border-bottom-color: 1px var(--border-color);
 }
 

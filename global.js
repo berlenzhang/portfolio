@@ -15,11 +15,11 @@ if (currentLink) {
 }
 
 let pages = [
-    { url: '../index.html', title: 'Home' },
-    { url: '../projects/index.html', title: 'Projects' },
-    { url: '../resume/index.html', title: 'Resume' },
+    { url: '/index.html', title: 'Home' },
+    { url: '/projects/index.html', title: 'Projects' },
+    { url: '/resume/index.html', title: 'Resume' },
     { url: 'https://github.com/berlenzhang/', title: 'Profile' },
-    { url: '../contact/index.html', title: 'Contact' },
+    { url: '/contact/index.html', title: 'Contact' },
   ];
 
 let nav = document.createElement('nav');
