@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Image Processing App",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Image classifier using a K-Nearest Neighbors (KNN) algorithm to predict the time of day an image was taken."
+    },
+    {
+        "title": "Power Outage Analysis",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Performed exploratory data analysis of a nationwide power outage dataset using Pandas and data visualization techniques, revealing key factors impacting outage durations. Built a Random Forest Regression model with Scikit-Learn to predict the duration of power outages based on causes and population statistics of affected areas."
+    },
+    {
+        "title": "Yelp Ratings Predictor",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Performed feature engineering and developed machine learning model using PyTorch to predict Yelp review ratings (star count) based solely on the review text."
+    },
+    {
+        "title": "Weather and Tourism in San Diego",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Data visualization project that anaylzes the way sunshine and rain affect tourism rates in San Diego."
+    },
+    {
+        "title": "Obcaecati adipisci dignissimos libero!",
+        "year": "2022",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Eligendi aperiam nulla saepe officiis pariatur excepturi, assumenda, soluta earum provident reiciendis fuga, hic doloribus! Voluptatibus, temporibus architecto? Expedita numquam voluptatem mollitia molestias commodi sequi velit ex voluptatibus deleniti odit!"
+    },
+    {
+        "title": "Numquam esse consequatur deserunt?",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Architecto ab ipsam dolores nihil expedita dicta eligendi possimus dignissimos consequuntur vel illo adipisci, reprehenderit aliquid pariatur esse natus quo laudantium iure quam. Voluptatum fugiat velit cumque ipsa itaque explicabo."
+    },
+    {
+        "title": "Odio quod dolorem neque!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Itaque obcaecati quibusdam ut, nulla libero voluptas odit rem voluptatum similique! Architecto dolorum dolores, impedit aperiam quam, alias mollitia similique odit est adipisci natus quo quibusdam aspernatur voluptas et ad."
+    },
+    {
+        "title": "Recusandae sed tenetur quaerat.",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Sed alias, corporis a quod adipisci inventore omnis praesentium? Quidem, ipsum at, facere, ullam nesciunt animi illo nulla dolorem suscipit aut reiciendis cum? Temporibus laboriosam reprehenderit iusto. Reprehenderit, neque ad."
+    },
+    {
+        "title": "Laborum, consectetur saepe. Nemo!",
+        "year": "2022",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Quo explicabo repellat asperiores sunt praesentium soluta labore maiores dolor aliquam similique assumenda sint, officiis doloremque consequatur quas nam eligendi enim unde natus pariatur, autem necessitatibus alias. Deserunt, commodi laboriosam."
+    },
+    {
+        "title": "Totam, odio! Sint, voluptates!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Dicta illo deserunt est et cum totam dolor quod amet, eum aperiam incidunt tempora corrupti aspernatur velit commodi quidem iste. Qui, ea consequuntur inventore ipsam quia omnis ipsum nesciunt dicta?"
+    },
+    {
+        "title": "Nobis ipsam aperiam suscipit!",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Pariatur esse consectetur aliquid vero officia dicta voluptatum, perferendis ipsam impedit quod molestias quas nulla sit architecto exercitationem earum? Eveniet sapiente earum blanditiis magni minus natus odio sunt ab laboriosam?"
+    },
+    {
+        "title": "Dolorum deleniti aliquam fugit?",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Minus sit voluptas quia alias ducimus vel, neque officia omnis accusamus eius veniam. Eos assumenda consectetur corrupti, vitae rerum omnis in at? Distinctio, quos odit. Nam dolorum placeat corrupti voluptate."
+    }
+]
