@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta - Code Analysis</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <h1 class="page-title">META... BERLEN</h1>
+    <p class="page-description">Statistics of this repo</p>
+
+    <h2 class="summary-title">Statistics</h2>
+    <div class="summary-container">
+        <div class="stat-box">
+            <span class="stat-label">Commits</span>
+            <span class="stat-value" id="total-commits">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Files</span>
+            <span class="stat-value" id="total-files">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Total LOC</span>
+            <span class="stat-value" id="total-loc">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Max Depth</span>
+            <span class="stat-value" id="max-depth">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Longest Line</span>
+            <span class="stat-value" id="longest-line">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Max Lines</span>
+            <span class="stat-value" id="max-lines">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Branches</span>
+            <span class="stat-value" id="branch-count">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Avg Time Worked</span>
+            <span class="stat-value" id="avg-time">--</span>
+        </div>
+    </div>
+
+    <h2 class="summary-title">Commits by based on the time of day ..</h2>
+    <div id="chart"></div>
+
+    <div id="language-breakdown" class="language-stats"></div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="../global.js" type="module"></script>
+    <script src="main.js" type="module"></script>
+
+</body>
+</html>

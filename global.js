@@ -19,6 +19,7 @@ let pages = [
     { url: '../projects/', title: 'Projects' },
     { url: '../resume/', title: 'Resume' },
     { url: 'https://github.com/berlenzhang/', title: 'Profile' },
+    { url: '../meta/', title: 'Meta' },
     { url: '../contact/', title: 'Contact' },
   ];
 
@@ -103,17 +104,21 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
   containerElement.innerHTML = '';
 
   projects.forEach(project => {
-      const article = document.createElement('article');
+    const article = document.createElement('article');
+    article.innerHTML = `
+      <${headingLevel}>${project.title}</${headingLevel}>
+      <img src="${project.image || 'placeholder.jpg'}" alt="${project.title}">
+      <div class="project-details">
+        <p>${project.description}</p>
+        <p class="project-year">c. ${project.year}</p>
+      </div>
+    `;
 
-      article.innerHTML = `
-          <${headingLevel}>${project.title}</${headingLevel}>
-          <img src="${project.image}" alt="${project.title}">
-          <p>${project.description}</p>
-      `;
-
-      containerElement.appendChild(article);
+    containerElement.appendChild(article);
   });
 }
+
+
 
 export async function fetchGitHubData(username) {
   return fetchJSON(`https://api.github.com/users/${username}`);
